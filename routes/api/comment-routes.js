@@ -6,7 +6,7 @@ router
 .post(addComment);
 
 router
-.route('/:pizzaId/:CommentId/:replyId')
+.route('/:pizzaId/:commentId/:replyId')
 .delete(removeReply)
 
 router
